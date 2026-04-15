@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data and Local State
+data/
+*.json
+!frontend/package.json
+!frontend/package-lock.json
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Frontend specifics (if not handled by nested gitignore)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
